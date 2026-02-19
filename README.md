@@ -29,10 +29,13 @@ Instalação e Excução Local
 
 Para correr o projeto localmente: 
 1. clona o repositório: Git clone 
-2. Cria uma ambiente virtual e instala as dependências: 
-  python -m ven 
+2. Cria uma ambiente virtual e instala as dependências:
+
+    python -m ven
+   
   pip install -r requirements.txt
-3. Executar a App: streamlit [nome do ficheiro].py 
+  
+4. Executar a App: streamlit [nome do ficheiro].py 
 
 
 
