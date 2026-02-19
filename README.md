@@ -11,6 +11,7 @@ Fluxo de Dados
 Tecnologias Utilizadas
 
 Frontend: Streamlit
+
 Manipulação de Dados: Pandas
 Geração de Documentos: Python-docx
 Backend/Data: Google Sheets Api
