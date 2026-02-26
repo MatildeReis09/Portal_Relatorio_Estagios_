@@ -10,7 +10,7 @@ st.set_page_config(page_title="Gerador de Relatórios", layout="wide")
 # Link gerado pelas respostas do froms (google sheets) 
 URL_CSV_Respostas = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSy4HVfG-ckMI2a0LHV17mq_HWnv5qwOj4R7yhcp7w_srg604hAWBSn6SrebKKI-cqrHKCcEwDo8jjA/pub?gid=1536866325&single=true&output=csv"
 # link respetivo de ligação aos pins
-URL_Utilizadores = ""https://docs.google.com/spreadsheets/d/e/2PACX-1vSy4HVfG-ckMI2a0LHV17mq_HWnv5qwOj4R7yhcp7w_srg604hAWBSn6SrebKKI-cqrHKCcEwDo8jjA/pub?gid=1984584767&single=true&output=csv"
+URL_Utilizadores = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSy4HVfG-ckMI2a0LHV17mq_HWnv5qwOj4R7yhcp7w_srg604hAWBSn6SrebKKI-cqrHKCcEwDo8jjA/pub?gid=1984584767&single=true&output=csv"
 #"https://docs.google.com/spreadsheets/d/e/2PACX-1vSy4HVfG-ckMI2a0LHV17mq_HWnv5qwOj4R7yhcp7w_srg604hAWBSn6SrebKKI-cqrHKCcEwDo8jjA/pub?gid=1984584767&single=true&output=csv"
 
 st.title("Portal de Relatórios de Estágio")
@@ -147,6 +147,7 @@ if acesso_autorizado:
                     st.warning("Ainda não existem dados para este mês.")
     else: 
         st.error(f"Coluna' {coluna_data}' não encontrada.")
+
 
 
 
