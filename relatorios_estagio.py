@@ -48,8 +48,8 @@ def create_word (dados, nome,titulo):
     # Ordenar por data de referência (trabalho)
     dados = dados.sort_values(by='Semana de Referência')
     
-      for _, linha in dados.iterrows():
-        # formata a datas para PT-PT no Word
+    for _, linha in dados.iterrows():
+    # formata a datas para PT-PT no Word
         data_referencia = pd.to_datetime(linha['Semana de Referência']).strftime('%d/%m/%Y')
         doc.add_heading(f"Semana de {data_referencia}", level=1)
 
@@ -172,6 +172,7 @@ if acesso_autorizado:
             )
         else: 
             st.warning("Ainda não existem dados para este mês.")
+
 
 
 
